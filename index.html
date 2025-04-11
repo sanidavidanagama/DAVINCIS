@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davinci's - Taste the Difference</title>
+    <link rel="icon" href="assets/images/davincistitleimage.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <a href="index.html"><img class="logo" src="assets/images/logo.png" alt="logo"></a>
+            <nav class="nav">
+                <ul class="nav__links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="menu/menu.html">Menu</a></li>
+                    <li><a href="offers/offers.html">Offers</a></li>
+                    <li><a href="aboutus/aboutus.html">About Us</a></li>
+                    <li><a href="bookatable/book-a-table.html">Book a Table</a></li>
+                </ul>
+            </nav>
+
+            <span class="cart" onclick="showCartPopup()">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-count"></span>
+            </span>
+        </div>
+    </header>
+
+
+    <!-- Image Slider (Auto)-->
+    <div class="landing-container">
+        <div class="left-pane">
+            <div class="logo">
+                <img src="assets/images/menu-logo.png" alt="Davini's Logo">
+            </div>
+            <div class="text-content">
+                <p class="para">Welcome to DaVinci's, where fine dining meets elegance. Indulge in expertly crafted
+                    dishes, made with the finest ingredients, in a sophisticated atmosphere. Whether you're here for a
+                    casual meal or a special celebration, every experience at DaVinci's is designed to delight.</p>
+                <a href="menu/menu.html">
+                    <button class="explore-menu">Explore Menu</button>
+                </a>
+            </div>
+        </div>
+        <div class="right-pane">
+            <img src="assets/images/landing-carousal/1.jpg" alt="landing-carousal-image-1" class="active">
+            <img src="assets/images/landing-carousal/2.jpg" alt="landing-carousal-image-2">
+            <img src="assets/images/landing-carousal/3.jpg" alt="landing-carousal-image-3">
+            <img src="assets/images/landing-carousal/4.jpg" alt="landing-carousal-image-4">
+            <img src="assets/images/landing-carousal/5.jpg" alt="landing-carousal-image-5">
+            <img src="assets/images/landing-carousal/6.jpg" alt="landing-carousal-image-6">
+            <img src="assets/images/landing-carousal/7.jpg" alt="landing-carousal-image-7">
+            <img src="assets/images/landing-carousal/8.jpg" alt="landing-carousal-image-8">
+            <img src="assets/images/landing-carousal/9.jpg" alt="landing-carousal-image-9">
+            <img src="assets/images/landing-carousal/10.jpg" alt="landing-carousal-image-10">
+        </div>
+    </div>
+    <br>
+
+
+
+    <!-- Offers Section-->
+    <br>
+    <h1 class="deals">Deals of the Day</h1>
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-item" data-index="0">
+                <img src="assets/images/offerimages/Appetizer Delight Combo.png" alt="Offer1">
+            </div>
+            <div class="carousel-item" data-index="1">
+                <img src="assets/images/offerimages/Chicken Feast Combo.png" alt="Offer2">
+            </div>
+            <div class="carousel-item" data-index="2">
+                <img src="assets/images/offerimages/Curry Lovers Combo.png" alt="Offer3">
+            </div>
+            <div class="carousel-item" data-index="3">
+                <img src="assets/images/offerimages/Family Grill Combo.png" alt="Offer4">
+            </div>
+            <div class="carousel-item" data-index="4">
+                <img src="assets/images/offerimages/Grill Masters Combo.png" alt="Offer5">
+            </div>
+            <div class="carousel-item" data-index="4">
+                <img src="assets/images/offerimages/Grilled Fish Combo.png" alt="Offer6">
+            </div>
+            <div class="carousel-item" data-index="4">
+                <img src="assets/images/offerimages/Healthy Greens Combo.png" alt="Offer7">
+            </div>
+            <div class="carousel-item" data-index="4">
+                <img src="assets/images/offerimages/Italian Night Combo.png" alt="Offer8">
+            </div>
+            <div class="carousel-item" data-index="4">
+                <img src="assets/images/offerimages/Sandwich & Salad Combo.png" alt="Offer9">
+            </div>
+            <div class="carousel-item" data-index="4">
+                <img src="assets/images/offerimages/Seafood Feast Combo.png" alt="Offer0">
+            </div>
+            <div class="carousel-item" data-index="4">
+                <img src="assets/images/offerimages/Spicy Delight Combo.png" alt="Offer11">
+            </div>
+            <div class="carousel-item" data-index="4">
+                <img src="assets/images/offerimages/Sri Lankan Spice Combo.png" alt="Offer12">
+            </div>
+            <div class="carousel-item" data-index="4">
+                <img src="assets/images/offerimages/Sweet Tooth Combo.png" alt="Offer13">
+            </div>
+            <div class="carousel-item" data-index="4">
+                <img src="assets/images/offerimages/Vegetarian Feast Combo.png" alt="Offer14">
+            </div>
+        </div>
+    </div>
+    <a href="offers/offers.html">
+        <button class="explore-offers">Explore Offers</button>
+    </a>
+
+    <!-- Signature Items -->
+    <h1 class="deals">Try our Signature</h1>
+    <div class="menu-container" id="menuContent"></div>
+
+    <!-- Book a Table -->
+    <div class="bat-container">
+        <div class="text-content">
+            <h1 class="rym-title">Reserve Your Exclusive Dining Experience</h1>
+            <p class="para">At DaVinci’s, we believe that every meal is an experience worth savoring. Whether you're
+                celebrating a milestone or simply enjoying a night out, reserving your table guarantees you a spot in an
+                atmosphere designed for comfort and elegance. Our team is dedicated to providing impeccable service and
+                ensuring that every moment with us exceeds expectations. Book now to secure your preferred time and
+                indulge in an unforgettable dining experience. We can't wait to host you!</p>
+            <a href="bookatable/book-a-table.html">
+                <button class="bat-button">Book a Table</button>
+            </a>
+        </div>
+        <div class="image-container">
+            <img src="assets/images/bookatable.png" alt="Reserve Your Moment">
+        </div>
+    </div>
+
+    <!-- Inquiry Section -->
+    <div class="inquiry-section">
+        <img class="inquiry-image" src="assets/images/inquiries.png" alt="Inquiry-image">
+        <div>
+            <h1 class="inquiry">Submit an Inquiry</h1>
+            <hr class="hrule">
+            <div id="text-content" class="text-content">
+                <div class="inquiry-box">
+                    <form>
+                        <input type="text" id="name" placeholder="Name" aria-label="Name">
+                    </form>
+                </div>
+                <div class="inquiry-box">
+                    <form>
+                        <input type="text" id="email" placeholder="Email" aria-label="Email">
+                    </form>
+                </div>
+                <div class="inquiry-description">
+                    <form>
+                        <textarea id="message" placeholder="Type your message here"
+                            aria-label="Type your message here"></textarea>
+                    </form>
+                </div>
+                <button class="inquiry-submit" onclick="clearFields()">Submit</button>
+
+            </div>
+
+        </div>
+    </div>
+    <br><br><br>
+
+    <!-- Footer Section-->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="logo-footer">
+                    <img src="../assets/images/menu-logo.png" alt="logo">
+                </div>
+                <p>Where fine dining meets timeless elegance. Savor exceptional cuisine in a sophisticated setting,
+                    crafted for unforgettable moments.</p>
+                <br>
+                <hr><br>
+                <div class="opening-hours">
+                    <p><strong>Opening Hours:</strong></p>
+                    <p>Monday - Thursday : 10.00 - 22.00</p>
+                    <p>Friday - Sunday : 10:00 - 23:30</p>
+                </div>
+            </div>
+            <div class="footer-middle">
+                <a href="../index.html">Home</a>
+                <a href="../menu/menu.html">Menu</a>
+                <a href="../offers/offers.html">Offers</a>
+                <a href="../bookatable/book-a-table.html">Book a Table</a>
+                <a href="../aboutus/aboutus.html">About Us</a>
+            </div>
+            <div class="footer-right">
+                <a href="https://maps.app.goo.gl/wLtgSGCLndCJc9xa6" target="_blank">21, Alfred House Gardens,
+                    Colombo</a>
+                <a href="tel:+94112345678" target="_blank">+0112-345-678</a>
+                <a href="mailto:info.davincis@gmail.com" target="_blank">info.davincis@gmail.com</a>
+                <div class="footer-social-media-list">
+                    <a href="https://www.facebook.com" target="_blank">&#8203;<i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com" target="_blank">&#8203;<i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="tel:+94765764774" target="_blank">&#8203;<i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.tiktok.com" target="_blank">&#8203;<i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyrights &copy; 2025 DaVinci's Restaurant</p>
+        </div>
+    </footer>
+
+
+    <!-- Cart Pop-up-->
+    <div id="cart-popup" class="cart-popup">
+        <div id="cart-items">
+            <!-- Dynamic Cart Items -->
+        </div>
+        <div class="cart-footer">
+            <hr>
+            <b>
+                <p>Subtotal: <span id="subtotal">Rs. 0.00</span></p>
+            </b>
+            <p>Tax (18%): <span id="tax">Rs. 0.00</span></p>
+            <b>
+                <p>Total: <span id="total">Rs. 0.00</span></p>
+            </b>
+            <hr>
+            <button class="popup-button" onclick="viewMore()">View More</button>
+            <button class="popup-button" onclick="checkout()">Checkout</button>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="home/home.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

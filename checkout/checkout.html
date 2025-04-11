@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | DaVinci's</title>
+    <link rel="icon" href="../assets/images/davincistitleimage.png" type="image/x-icon">
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+</head>
+
+<body>
+    <div class="checkout-container">
+        <!-- Header Section -->
+        <header>
+            <div class="header-content">
+                <a href="../index.html"><img class="logo" src="../assets/images/logo.png" alt="logo"></a>
+                <nav class="nav">
+                    <ul class="nav__links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../menu/menu.html">Menu</a></li>
+                        <li><a href="../offers/offers.html">Offers</a></li>
+                        <li><a href="../aboutus/aboutus.html">About Us</a></li>
+                        <li><a href="../bookatable/book-a-table.html">Book a Table</a></li>
+                    </ul>
+                </nav>
+                <span class="cartHidden"><i class="fa-solid fa-cart-shopping"></i></span>
+            </div>
+        </header>
+
+        <!-- Page Container-->
+        <div class="form-checkout">
+            <!-- Form Section -->
+            <div class="form-container">
+                <h1>Checkout</h1>
+                <hr>
+                <h2>Contact Information</h2>
+                <form id="checkoutForm" onsubmit="return false;">
+                    <input class="f-input" type="text" placeholder="First Name" aria-label="First Name">
+                    <input class="f-input" type="text" placeholder="Last Name" aria-label="Last Name">
+                    <input class="f-input" type="email" placeholder="Email" aria-label="Email">
+                    <input class="f-input" type="text" placeholder="Contact Number" aria-label="Contact Number">
+
+                    <h2>Delivery Information</h2>
+                    <input class="f-input" type="text" placeholder="House Number" aria-label="House Number">
+                    <input class="f-input" type="text" placeholder="Street" aria-label="Street">
+                    <input class="f-input" type="text" placeholder="Town/City" aria-label="Town/City">
+                    <input class="f-input" type="text" placeholder="Province" aria-label="Province">
+
+                    <h2>Payment Information</h2>
+                    <div class="payment-section">
+                        <label>
+                            <input type="radio" name="payment" id="cod" value="cod"
+                                onclick="togglePaymentDetails(false)"> Cash on Delivery
+                        </label><br><br>
+                        <label>
+                            <input type="radio" name="payment" id="card" value="card"
+                                onclick="togglePaymentDetails(true)">Visa/Master
+                        </label><br>
+
+                        <div id="cardDetails" class="hidden">
+                            <input class="f-input" type="text" placeholder="Card Number" aria-label="Card Number"
+                                oninput="formatCardNumber(this)">
+                            <input class="f-input" id="monthYearInput" type="text" placeholder="Expiration"
+                                aria-label="Expiration" oninput="formatMonthYear(this)">
+                            <input class="f-input" type="text" placeholder="CVV" aria-label="CVV"
+                                oninput="formatCVV(this)">
+                            <input class="f-input" type="text" id="cardNumber" name="cardNumber"
+                                placeholder="Cardholders Name" aria-label="Cardholders Name">
+                            <br>
+                            <div class="sec-pay">
+                                <i class="fa-solid fa-lock"></i>
+                                <p>Payments are secure and encrypted</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br><br><br>
+
+                    <div class="checkbox-container">
+                        <div class="checkbox-wrapper">
+                            <input type="checkbox" id="check" aria-label="checkbox">
+                        </div>
+                        <label id="terms">I have read and accepted the
+                            <span class="terms-link" id="terms-link">terms and conditions</span>
+                        </label>
+                    </div>
+
+                    <button class="checkout-button">Place Order</button>
+                </form>
+            </div>
+
+            <!-- Terms and Conditions Popup -->
+            <div class="overlay" id="overlay"></div>
+            <div class="popup" id="popup">
+                <h2>Checkout Terms & Conditions</h2><span onclick="closePopup()" class="close-btn">&times;</span>
+                <hr>
+                <div class="popup-scrollable-cont">
+                    <h3>Order Placement and Confirmation</h3>
+                    <p>You are responsible for the accuracy of your order details, including items, quantities,
+                        delivery/pickup instructions, and contact information. Upon successful order placement,
+                        you
+                        will receive an order confirmation, which does not guarantee acceptance. We reserve the
+                        right to refuse or cancel any order for any reason. Modifications or cancellations may
+                        be
+                        possible within a limited timeframe, and menu items and prices are subject to change
+                        without
+                        notice.</p>
+                    <h3>Payment</h3>
+                    <p>We accept cash on delivery or card payment. By providing your payment information, you
+                        authorize us to charge the total order amount to your selected method. We utilize secure
+                        payment gateways, but are not responsible for breaches beyond our control. All prices
+                        are in
+                        LKR, with applicable taxes added. Optional gratuity may be added to your order.
+                    </p>
+                    <h3>Delivery</h3>
+                    <p>Delivery times are estimates and may vary. You are responsible for providing a
+                        correct delivery address. Delivery fees may apply. Contactless delivery options may be
+                        available. Proof of identification or order confirmation may be required.</p>
+                    <h3>Refunds and Returns</h3>
+                    <p>If you are dissatisfied with the food quality, please contact us immediately. We may
+                        offer a
+                        refund or replacement at our discretion. Refunds will be processed to the original
+                        payment
+                        method. Due to the perishable nature of our products, we do not accept returns.</p>
+                    <h3>Limitation of Liability</h3>
+                    <p>We are not liable for any indirect, incidental, or consequential damages arising from
+                        your
+                        use of our website or services. Our liability is limited to the total amount of your
+                        order.
+                    </p>
+                    <h3>Privacy Policy</h3>
+                    <p>Your personal information will be collected and used in accordance with our Privacy
+                        Policy.
+                    </p>
+                    <h3>Changes to Terms and Conditions</h3>
+                    <p>We reserve the right to modify these terms and conditions at any time without notice.</p>
+                    <h3>Governing Law</h3>
+                    <p>These terms and conditions shall be governed by and construed in accordance with the laws
+                        of Sri Lanka.</p>
+                    <h3>Contact Information</h3>
+                    <p>For any questions or concerns, please contact us at +0112-345-678.</p>
+                </div>
+
+            </div>
+
+
+
+            <div class="cart-summary">
+                <div class="heading-container">
+                    <i class="fa-sharp fa-solid fa-cart-shopping fa-2xl"></i>
+                    <h2>Cart Summary</h2>
+                    <br>
+
+                </div>
+                <hr class="hr2">
+                <div id="cart-items"></div>
+                <div class="cart-totals">
+                    <div>
+                        <span>Subtotal</span>
+                        <span id="subtotal">Rs. 0.00</span>
+                    </div>
+                    <div>
+                        <span>Tax (18%)</span>
+                        <span id="tax">Rs. 0.00</span>
+                    </div>
+                    <div>
+                        <span>Delivery Fee</span>
+                        <span id="delivery">Rs. 0.00</span>
+                    </div>
+                    <div>
+                        <span>Total</span>
+                        <span id="total">Rs. 0.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer Section-->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="logo-footer">
+                    <img src="../assets/images/menu-logo.png" alt="logo">
+                </div>
+                <p>Where fine dining meets timeless elegance. Savor exceptional cuisine in a sophisticated setting,
+                    crafted for unforgettable moments.</p>
+                <br>
+                <hr><br>
+                <div class="opening-hours">
+                    <p><strong>Opening Hours:</strong></p>
+                    <p>Monday - Thursday : 10.00 - 22.00</p>
+                    <p>Friday - Sunday : 10:00 - 23:30</p>
+                </div>
+            </div>
+            <div class="footer-middle">
+                <a href="../index.html">Home</a>
+                <a href="../menu/menu.html">Menu</a>
+                <a href="../offers/offers.html">Offers</a>
+                <a href="../bookatable/book-a-table.html">Book a Table</a>
+                <a href="../aboutus/aboutus.html">About Us</a>
+            </div>
+            <div class="footer-right">
+                <a href="https://maps.app.goo.gl/wLtgSGCLndCJc9xa6" target="_blank">21, Alfred House Gardens,
+                    Colombo</a>
+                <a href="tel:+94112345678" target="_blank">+0112-345-678</a>
+                <a href="mailto:info.davincis@gmail.com" target="_blank">info.davincis@gmail.com</a>
+                <div class="footer-social-media-list">
+                    <a href="https://www.facebook.com" target="_blank">&#8203;<i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com" target="_blank">&#8203;<i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="tel:+94765764774" target="_blank">&#8203;<i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.tiktok.com" target="_blank">&#8203;<i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyrights &copy; 2025 DaVinci's Restaurant</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="checkout.js"></script>
+
+
+
+</body>
+
+</html>

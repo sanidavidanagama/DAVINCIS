@@ -1,0 +1,157 @@
+<offers>
+    <category name="Combo Offers">
+        <offer>
+            <name>Seafood Feast Combo</name>
+            <inclusion>
+                <item category="Signature">Chef's Seafood Platter</item>
+                <item category="Beverages">Fresh Lime Juice</item>
+                <item category="Desserts">Fruit Salad</item>
+            </inclusion>
+            <price>10900</price>
+            <description>A luxurious seafood experience with our signature platter, refreshing lime juice, and a light fruit salad.</description>
+        </offer>
+
+        <offer>
+            <name>Sri Lankan Spice Combo</name>
+            <inclusion>
+                <item category="Mains">Sri Lankan Chicken Curry</item>
+                <item category="Sides">Steamed Rice</item>
+                <item category="Desserts">Watalappan</item>
+            </inclusion>
+            <price>4000</price>
+            <description>A classic Sri Lankan meal featuring aromatic chicken curry, steamed rice, and a sweet Watalappan dessert.</description>
+        </offer>
+
+        <offer>
+            <name>Italian Night Combo</name>
+            <inclusion>
+                <item category="Mains">Spaghetti Carbonara</item>
+                <item category="Sides">Garlic Bread</item>
+                <item category="Desserts">Chocolate Mousse</item>
+            </inclusion>
+            <price>5000</price>
+            <description>Enjoy a taste of Italy with creamy Carbonara, garlic bread, and a decadent chocolate mousse.</description>
+        </offer>
+
+        <offer>
+            <name>Grill Masters Combo</name>
+            <inclusion>
+                <item category="From-the-Grill">T-Bone Steak</item>
+                <item category="Sides">Mashed Potatoes</item>
+                <item category="Sides">Roasted Vegetables</item>
+            </inclusion>
+            <price>5500</price>
+            <description>A hearty grill combo with a juicy T-bone steak, creamy mashed potatoes, and roasted vegetables.</description>
+        </offer>
+
+        <offer>
+            <name>Appetizer Delight Combo</name>
+            <inclusion>
+                <item category="Appetizers">Spicy Chicken Wings</item>
+                <item category="Appetizers">Vegetable Spring Rolls</item>
+                <item category="Appetizers">Cheese &amp; Spinach Dip with Tortilla Chips</item>
+            </inclusion>
+            <price>4500</price>
+            <description>A flavorful appetizer selection perfect for sharing, including wings, spring rolls, and a creamy dip.</description>
+        </offer>
+
+        <offer>
+            <name>Vegetarian Feast Combo</name>
+            <inclusion>
+                <item category="Mains">Vegetable Lasagna</item>
+                <item category="Sides">Sweet Potato Fries</item>
+                <item category="Desserts">Cheesecake with Berry Compote</item>
+            </inclusion>
+            <price>4500</price>
+            <description>A vegetarian-friendly combo with lasagna, sweet potato fries, and a delightful cheesecake.</description>
+        </offer>
+
+        <offer>
+            <name>Family Grill Combo</name>
+            <inclusion>
+                <item category="From-the-Grill">Pork Ribs</item>
+                <item category="Sides">Coleslaw</item>
+                <item category="Sides">Corn on the Cob</item>
+            </inclusion>
+            <price>4000</price>
+            <description>A family-friendly grill combo with smoky pork ribs, coleslaw, and sweet corn.</description>
+        </offer>
+
+        <offer>
+            <name>Healthy Greens Combo</name>
+            <inclusion>
+                <item category="Salads">Avocado &amp; Shrimp Salad</item>
+                <item category="Beverages">Strawberry Smoothie</item>
+                <item category="Desserts">Fruit Salad</item>
+            </inclusion>
+            <price>5000</price>
+            <description>A light and healthy combo featuring a shrimp salad, strawberry smoothie, and fresh fruit salad.</description>
+        </offer>
+
+        <offer>
+            <name>Curry Lovers Combo</name>
+            <inclusion>
+                <item category="Mains">Mutton Rogan Josh</item>
+                <item category="Sides">Steamed Rice</item>
+                <item category="Beverages">Mango Lassi</item>
+            </inclusion>
+            <price>5000</price>
+            <description>A rich and flavorful combo with mutton curry, steamed rice, and a sweet mango lassi.</description>
+        </offer>
+
+        <offer>
+            <name>Sweet Tooth Combo</name>
+            <inclusion>
+                <item category="Desserts">Chocolate Brownie with Vanilla Ice Cream</item>
+                <item category="Desserts">Tiramisu</item>
+                <item category="Beverages">Iced Coffee</item>
+            </inclusion>
+            <price>3000</price>
+            <description>A dessert lover’s dream with a chocolate brownie, tiramisu, and iced coffee.</description>
+        </offer>
+
+        <offer>
+            <name>Chicken Feast Combo</name>
+            <inclusion>
+                <item category="Mains">Chicken Cacciatore</item>
+                <item category="Sides">Garlic Bread</item>
+                <item category="Desserts">Ice Cream (Various Flavors)</item>
+            </inclusion>
+            <price>6000</price>
+            <description>A hearty chicken dish with Italian flavors, served with garlic bread and a scoop of ice cream.</description>
+        </offer>
+
+        <offer>
+            <name>Grilled Fish Combo</name>
+            <inclusion>
+                <item category="From-the-Grill">Grilled Fish (Seasonal)</item>
+                <item category="Sides">Roasted Vegetables</item>
+                <item category="Beverages">Fresh Lime Juice</item>
+            </inclusion>
+            <price>3800</price>
+            <description>A light and healthy combo featuring seasonal grilled fish, roasted vegetables, and fresh lime juice.</description>
+        </offer>
+
+        <offer>
+            <name>Sandwich &amp; Salad Combo</name>
+            <inclusion>
+                <item category="Sandwiches">Club Sandwich</item>
+                <item category="Salads">Mixed Green Salad with Balsamic Vinaigrette</item>
+                <item category="Beverages">Ceylon Tea (Hot or Iced)</item>
+            </inclusion>
+            <price>4000</price>
+            <description>A satisfying combo with a triple-decker club sandwich, a fresh green salad, and a cup of Ceylon tea.</description>
+        </offer>
+
+        <offer>
+            <name>Spicy Delight Combo</name>
+            <inclusion>
+                <item category="Appetizers">Spicy Chicken Wings</item>
+                <item category="Signature">Spiced Lamb Shank</item>
+                <item category="Beverages">Mango Lassi</item>
+            </inclusion>
+            <price>7000</price>
+            <description>A spicy and flavorful combo with chicken wings, slow-braised lamb shank, and a cooling mango lassi.</description>
+        </offer>
+    </category>
+</offers>

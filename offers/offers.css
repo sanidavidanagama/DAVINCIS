@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #d9d9d9;
+}
+#popup-heading {
+    font-size: 30px;
+}
+
+.offers-section {
+    margin-top: 150px;
+    text-align: center;
+    padding: 20px;
+}
+
+#offers-heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #293442;;
+}
+
+.offers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.offer-card {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.offer-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.offer-card:hover {
+    transform: scale(1.05);
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    margin-top: 100px;
+    background-color: white;
+    padding: 50px;
+    width: 75%;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+hr {
+    height: 2px !important;
+    background-color: #000000;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: none;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.popup-items {
+    margin-top: 40px;
+}
+
+.popup-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.popup-item img {
+    width: 350px;
+    height: 220px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.popup-item-details {
+    margin-left: 30px;
+    flex: 1;
+}
+
+.popup-item-details h3 {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.popup-item-details p {
+    margin: 5px 0 0;
+    margin-top: 12px;
+    font-size: 0.9rem;
+    color: #000000;
+}
+
+.item-hr {
+    border: none; 
+    height: 2px; 
+    background-color: #fe7a2b; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+
+.add-to-cart {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.add-to-cart:hover {
+    background-color: #fe7a2b;
+    color: #000000;
+    transition-duration: 0.4s;
+}
+
+
+.cart-footer {
+    position: relative !important;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.search-container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #d9d9d9;
+    margin-bottom: -100px;
+    height: 80px;
+
+}
+
+.search-input {
+    padding: 10px 15px;
+    width: 40%;
+    border: 2px solid #24252A;
+    color: #000;
+    font-size: 16px;
+    outline: none;
+    height: 50px;
+    
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #24252A;
+    color: #ddd;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    height: 50px;
+}
+
+.search-button:hover {
+    background-color: #fe7a2b;
+    color: #000; 
+    transition-duration: 0.5s;
+}

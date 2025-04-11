@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <category name="Signature">
+    <item>
+      <name>Chef's Seafood Platter</name>
+      <description>A lavish assortment of grilled prawns, lobster, fish, and calamari served with a tangy garlic aioli and lemon wedges.</description>
+      <price>8950</price>
+      <ingredients>Prawns, Lobster, Fish, Calamari, Garlic, Lemon</ingredients>
+    </item>
+    <item>
+      <name>Spiced Lamb Shank</name>
+      <description>Slow-braised lamb shank infused with aromatic Sri Lankan spices, served on a bed of creamy mashed potatoes and vegetable medley.</description>
+      <price>4500</price>
+      <ingredients>Lamb Shank, Sri Lankan Spices, Potatoes, Vegetables</ingredients>
+    </item>
+    <item>
+      <name>Black Pepper Crab</name>
+      <description>A Sri Lankan culinary treasure, mud crab cooked in a rich and spicy black pepper sauce.</description>
+      <price>9950</price>
+      <ingredients>Mud Crab, Black Pepper, Spices</ingredients>
+    </item>
+    <item>
+      <name>Wood-fired Pizza with Smoked Chicken &amp; Pineapple</name>
+      <description>A gourmet pizza with the sweetness of pineapple complementing the smokiness of chicken on a crisp wood-fired crust.</description>
+      <price>6700</price>
+      <ingredients>Pizza Dough, Smoked Chicken, Pineapple, Cheese</ingredients>
+    </item>
+    <item>
+      <name>Coconut &amp; Cashew Curry with Roast Chicken</name>
+      <description>A creamy and flavorful curry made with coconut milk and cashews, served with succulent roast chicken.</description>
+      <price>4700</price>
+      <ingredients>Coconut Milk, Cashews, Chicken, Spices</ingredients>
+    </item>
+  </category>
+
+  <category name="Appetizers">
+    <item>
+      <name>Crispy Fried Calamari</name>
+      <description>Tender calamari rings lightly battered and fried to a golden crisp, served with a spicy mayo dip.</description>
+      <price>2650</price>
+      <ingredients>Calamari, Batter, Mayonnaise, Spices</ingredients>
+    </item>
+    <item>
+      <name>Vegetable Spring Rolls</name>
+      <description>Crispy spring rolls filled with a medley of fresh vegetables, served with a sweet chili sauce.</description>
+      <price>1350</price>
+      <ingredients>Spring Roll Wrappers, Vegetables, Chili Sauce</ingredients>
+    </item>
+    <item>
+      <name>Bruschetta with Tomato &amp; Basil</name>
+      <description>Toasted baguette slices topped with fresh tomatoes, basil, garlic, and a drizzle of balsamic glaze.</description>
+      <price>1250</price>
+      <ingredients>Baguette, Tomatoes, Basil, Garlic, Balsamic Glaze</ingredients>
+    </item>
+    <item>
+      <name>Spicy Chicken Wings</name>
+      <description>Juicy chicken wings marinated in a fiery blend of spices and baked to perfection.</description>
+      <price>1850</price>
+      <ingredients>Chicken Wings, Spices</ingredients>
+    </item>
+    <item>
+      <name>Cheese &amp; Spinach Dip with Tortilla Chips</name>
+      <description>A creamy dip of cheese and spinach served with crispy tortilla chips.</description>
+      <price>1400</price>
+      <ingredients>Cheese, Spinach, Tortilla Chips</ingredients>
+    </item>
+  </category>
+
+  <category name="Beverages">
+    <item>
+      <name>Fresh Lime Juice</name>
+      <description>Refreshing lime juice made with freshly squeezed limes.</description>
+      <price>450</price>
+      <ingredients>Limes</ingredients>
+    </item>
+    <item>
+      <name>Mango Lassi</name>
+      <description>A creamy and sweet yogurt-based drink blended with ripe mangoes.</description>
+      <price>990</price>
+      <ingredients>Mangoes, Yogurt</ingredients>
+    </item>
+    <item>
+      <name>Iced Coffee</name>
+      <description>Chilled coffee served with milk or cream and your choice of sweetener.</description>
+      <price>600</price>
+      <ingredients>Coffee, Milk/Cream, Sweetener</ingredients>
+    </item>
+    <item>
+      <name>Ceylon Tea (Hot or Iced)</name>
+      <description>Premium Ceylon tea served hot or iced.</description>
+      <price>400</price>
+      <ingredients>Ceylon Tea</ingredients>
+    </item>
+    <item>
+      <name>Strawberry Smoothie</name>
+      <description>A delightful blend of strawberries, yogurt, and a touch of honey.</description>
+      <price>950</price>
+      <ingredients>Strawberries, Yogurt, Honey</ingredients>
+    </item>
+    <item>
+      <name>Coca-Cola or Sprite</name>
+      <description>Classic soft drinks.</description>
+      <price>300</price>
+      <ingredients>Coca-Cola/Sprite</ingredients>
+    </item>
+    <item>
+      <name>Ginger Beer</name>
+      <description>A spicy and refreshing ginger-flavored beverage.</description>
+      <price>650</price>
+      <ingredients>Ginger, Spices</ingredients>
+    </item>
+  </category>
+
+  <category name="Salads">
+    <item>
+      <name>Mixed Green Salad with Balsamic Vinaigrette</name>
+      <description>A refreshing mix of greens with tomatoes, cucumbers, carrots, and a tangy balsamic dressing.</description>
+      <price>1150</price>
+      <ingredients>Mixed Greens, Tomatoes, Cucumbers, Carrots, Balsamic Vinaigrette</ingredients>
+    </item>
+    <item>
+      <name>Caesar Salad with Grilled Chicken</name>
+      <description>Crisp romaine lettuce tossed in creamy Caesar dressing with croutons, parmesan cheese, and grilled chicken.</description>
+      <price>1750</price>
+      <ingredients>Romaine Lettuce, Caesar Dressing, Croutons, Parmesan Cheese, Chicken</ingredients>
+    </item>
+    <item>
+      <name>Greek Salad</name>
+      <description>A Mediterranean classic with tomatoes, cucumbers, onions, olives, and feta cheese.</description>
+      <price>1300</price>
+      <ingredients>Tomatoes, Cucumbers, Onions, Olives, Feta Cheese</ingredients>
+    </item>
+    <item>
+      <name>Avocado &amp; Shrimp Salad</name>
+      <description>A light and flavorful salad with avocado slices, shrimp, mixed greens, and a citrus dressing.</description>
+      <price>3500</price>
+      <ingredients>Avocado, Shrimp, Mixed Greens, Citrus Dressing</ingredients>
+    </item>
+  </category>
+
+  <category name="Sandwiches">
+    <item>
+      <name>Club Sandwich</name>
+      <description>A triple-decker sandwich with chicken, bacon, lettuce, tomato, and mayonnaise.</description>
+      <price>2450</price>
+      <ingredients>Chicken, Bacon, Lettuce, Tomato, Mayonnaise, Bread</ingredients>
+    </item>
+    <item>
+      <name>Grilled Chicken Panini</name>
+      <description>Grilled chicken breast, cheese, and your choice of toppings in a panini bread.</description>
+      <price>1650</price>
+      <ingredients>Chicken, Cheese, Bread, Toppings</ingredients>
+    </item>
+    <item>
+      <name>Roast Beef &amp; Cheddar Sandwich</name>
+      <description>Thinly sliced roast beef and cheddar cheese with lettuce and tomato on a baguette.</description>
+      <price>2950</price>
+      <ingredients>Roast Beef, Cheddar Cheese, Lettuce, Tomato, Baguette</ingredients>
+    </item>
+    <item>
+      <name>Veggie Wrap</name>
+      <description>A soft tortilla wrap filled with hummus, falafel, lettuce, tomato, cucumber, and tahini sauce.</description>
+      <price>1200</price>
+      <ingredients>Tortilla, Hummus, Falafel, Lettuce, Tomato, Cucumber, Tahini Sauce</ingredients>
+    </item>
+    <item>
+      <name>Egg &amp; Bacon Sandwich</name>
+      <description>Classic egg and bacon sandwich on toast.</description>
+      <price>1950</price>
+      <ingredients>Egg, Bacon, Toast</ingredients>
+    </item>
+  </category>
+
+  <category name="Mains">
+    <item>
+      <name>Grilled Salmon with Lemon-Dill Sauce</name>
+      <description>Fresh salmon fillet grilled to perfection and topped with a zesty lemon-dill sauce.</description>
+      <price>5950</price>
+      <ingredients>Salmon, Lemon, Dill, Spices</ingredients>
+    </item>
+    <item>
+      <name>Pan-Seared Sea Bass with Roasted Vegetables</name>
+      <description>Delicate sea bass pan-seared and served with a medley of roasted seasonal vegetables.</description>
+      <price>5200</price>
+      <ingredients>Sea Bass, Seasonal Vegetables</ingredients>
+    </item>
+    <item>
+      <name>Chicken Cacciatore</name>
+      <description>A hearty Italian stew with chicken, tomatoes, onions, mushrooms, and herbs.</description>
+      <price>4950</price>
+      <ingredients>Chicken, Tomatoes, Onions, Mushrooms, Herbs</ingredients>
+    </item>
+    <item>
+      <name>Beef Stroganoff</name>
+      <description>Tender strips of beef cooked in a creamy mushroom sauce, served with rice or noodles.</description>
+      <price>6250</price>
+      <ingredients>Beef, Mushrooms, Cream, Rice/Noodles</ingredients>
+    </item>
+    <item>
+      <name>Vegetable Lasagna</name>
+      <description>Layers of pasta, ricotta cheese, vegetables, and tomato sauce baked to perfection.</description>
+      <price>2950</price>
+      <ingredients>Pasta, Ricotta Cheese, Vegetables, Tomato Sauce</ingredients>
+    </item>
+    <item>
+      <name>Pork Chops with Apple Chutney</name>
+      <description>Juicy pork chops grilled and served with a sweet and tangy apple chutney.</description>
+      <price>4750</price>
+      <ingredients>Pork Chops, Apples, Spices</ingredients>
+    </item>
+    <item>
+      <name>Sri Lankan Chicken Curry</name>
+      <description>Aromatic Sri Lankan curry with chicken, coconut milk, and a blend of spices.</description>
+      <price>3200</price>
+      <ingredients>Chicken, Coconut Milk, Spices</ingredients>
+    </item>
+    <item>
+      <name>Mutton Rogan Josh</name>
+      <description>A rich and flavorful Kashmiri curry with tender mutton in a fragrant gravy.</description>
+      <price>4100</price>
+      <ingredients>Mutton, Spices</ingredients>
+    </item>
+    <item>
+      <name>Spaghetti Carbonara</name>
+      <description>Classic Italian pasta dish with eggs, bacon, parmesan cheese, and black pepper.</description>
+      <price>4200</price>
+      <ingredients>Spaghetti, Eggs, Bacon, Parmesan Cheese, Black Pepper</ingredients>
+    </item>
+    <item>
+      <name>Mushroom Risotto</name>
+      <description>Creamy Italian risotto with Arborio rice, mushrooms, and parmesan cheese.</description>
+      <price>3100</price>
+      <ingredients>Arborio Rice, Mushrooms, Parmesan Cheese</ingredients>
+    </item>
+  </category>
+
+<category name="Sides">
+    <item>
+      <name>French Fries</name>
+      <description>Crispy and golden, lightly salted.</description>
+      <price>750</price>
+      <ingredients>Potatoes, Salt</ingredients>
+    </item>
+    <item>
+      <name>Sweet Potato Fries</name>
+      <description>A sweeter alternative, crispy and flavorful.</description>
+      <price>950</price>  
+      <ingredients>Sweet Potatoes</ingredients>
+    </item>
+    <item>
+      <name>Mashed Potatoes</name>
+      <description>Creamy and smooth, made with butter and milk.</description>
+      <price>800</price>
+      <ingredients>Potatoes, Butter, Milk</ingredients>
+    </item>
+    <item>
+      <name>Roasted Vegetables</name>
+      <description>A medley of seasonal vegetables roasted to perfection.</description>
+      <price>720</price>
+      <ingredients>Seasonal Vegetables</ingredients>
+    </item>
+    <item>
+      <name>Steamed Rice</name>
+      <description>Fluffy and light, a perfect complement to any dish.</description>
+      <price>1100</price>
+      <ingredients>Rice</ingredients>
+    </item>
+    <item>
+      <name>Garlic Bread</name>
+      <description>Toasted bread with a savory garlic butter spread.</description>
+      <price>800</price>
+      <ingredients>Bread, Garlic, Butter</ingredients>
+    </item>
+    <item>
+      <name>Coleslaw</name>
+      <description>Crisp and refreshing, with a creamy dressing.</description>
+      <price>750</price>
+      <ingredients>Cabbage, Carrots, Mayonnaise</ingredients>
+    </item>
+    <item>
+      <name>Corn on the Cob</name>
+      <description>Sweet and juicy, grilled or steamed.</description>
+      <price>200</price>
+      <ingredients>Corn</ingredients>
+    </item>
+    <item>
+      <name>Potato Salad</name>
+      <description>Creamy and tangy, with potatoes, mayonnaise, and other mix-ins.</description>
+      <price>500</price>
+      <ingredients>Potatoes, Mayonnaise</ingredients>
+    </item>
+    <item>
+      <name>Onion Rings</name>
+      <description>Crispy and golden, a classic favorite.</description>
+      <price>600</price>
+      <ingredients>Onions, Batter</ingredients>
+    </item>
+    <item>
+      <name>Side Salad</name>
+      <description>A small portion of mixed greens with your choice of dressing.</description>
+      <price>350</price>
+      <ingredients>Mixed Greens, Dressing</ingredients>
+    </item>
+    <item>
+      <name>Pickles</name>
+      <description>A variety of pickled vegetables for a tangy bite.</description>
+      <price>250</price>
+      <ingredients>Pickled Vegetables</ingredients>
+    </item>
+  </category>
+
+  <category name="From-the-Grill">
+    <item>
+      <name>T-Bone Steak</name>
+      <description>A premium cut of beef grilled to your desired doneness.</description>
+      <price>4500</price>
+      <ingredients>Beef</ingredients>
+    </item>
+    <item>
+      <name>Ribeye Steak</name>
+      <description>A flavorful and marbled cut of beef grilled to perfection.</description>
+      <price>4200</price>
+      <ingredients>Beef</ingredients>
+    </item>
+    <item>
+      <name>Sirloin Steak</name>
+      <description>A lean and tender cut of beef grilled to your liking.</description>
+      <price>3800</price>
+      <ingredients>Beef</ingredients>
+    </item>
+    <item>
+      <name>Lamb Chops</name>
+      <description>Juicy lamb chops marinated and grilled.</description>
+      <price>4000</price>
+      <ingredients>Lamb</ingredients>
+    </item>
+    <item>
+      <name>Chicken Skewers</name>
+      <description>Marinated chicken grilled on skewers with vegetables.</description>
+      <price>2500</price>
+      <ingredients>Chicken, Vegetables</ingredients>
+    </item>
+    <item>
+      <name>Vegetable Skewers</name>
+      <description>A colorful assortment of grilled vegetables on skewers.</description>
+      <price>1800</price>
+      <ingredients>Vegetables</ingredients>
+    </item>
+    <item>
+      <name>Grilled Fish (Seasonal)</name>
+      <description>Freshly caught fish grilled and seasoned.</description>
+      <price>3000</price>
+      <ingredients>Fish</ingredients>
+    </item>
+    <item>
+      <name>Pork Ribs</name>
+      <description>Tender and smoky pork ribs slathered in barbecue sauce.</description>
+      <price>3200</price>
+      <ingredients>Pork Ribs, Barbecue Sauce</ingredients>
+    </item>
+  </category>
+
+  <category name="Desserts">
+    <item>
+      <name>Chocolate Brownie with Vanilla Ice Cream</name>
+      <description>A decadent chocolate brownie served with a scoop of creamy vanilla ice cream.</description>
+      <price>1200</price>
+      <ingredients>Chocolate Brownie, Vanilla Ice Cream</ingredients>
+    </item>
+    <item>
+      <name>Cheesecake with Berry Compote</name>
+      <description>Creamy cheesecake topped with a sweet berry compote.</description>
+      <price>1400</price>
+      <ingredients>Cheesecake, Berries</ingredients>
+    </item>
+    <item>
+      <name>Tiramisu</name>
+      <description>Classic Italian dessert with layers of espresso-soaked ladyfingers and mascarpone cream.</description>
+      <price>1300</price>
+      <ingredients>Ladyfingers, Espresso, Mascarpone Cream</ingredients>
+    </item>
+    <item>
+      <name>Watalappan</name>
+      <description>A traditional Sri Lankan custard dessert flavored with jaggery and spices.</description>
+      <price>900</price>
+      <ingredients>Jaggery, Spices</ingredients>
+    </item>
+    <item>
+      <name>Fruit Salad</name>
+      <description>A refreshing mix of seasonal fruits.</description>
+      <price>800</price>
+      <ingredients>Seasonal Fruits</ingredients>
+    </item>
+    <item>
+      <name>Ice Cream (Various Flavors)</name>
+      <description>Choose from a variety of delicious ice cream flavors.</description>
+      <price>600</price>
+      <ingredients>Ice Cream</ingredients>
+    </item>
+    <item>
+      <name>Chocolate Mousse</name>
+      <description>Light and airy chocolate mousse.</description>
+      <price>1100</price>
+      <ingredients>Chocolate</ingredients>
+    </item>
+  </category>
+</menu>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Table | DaVinci's</title>
+    <link rel="icon" href="../assets/images/davincistitleimage.png" type="image/x-icon">
+    <link rel="stylesheet" href="book-a-table.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <a href="../index.html"><img class="logo" src="../assets/images/logo.png" alt="logo"></a>
+            <nav class="nav">
+                <ul class="nav__links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../menu/menu.html">Menu</a></li>
+                    <li><a href="../offers/offers.html">Offers</a></li>
+                    <li><a href="../aboutus/aboutus.html">About Us</a></li>
+                    <li><a href="../bookatable/book-a-table.html" class="active">Book a Table</a></li>
+                </ul>
+            </nav>
+            <span class="cart" onclick="showCartPopup()">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-count"></span>
+            </span>
+        </div>
+    </header>
+
+    <!-- Form Section -->
+    <div class="form-reserve-table">
+        <div class="form-container">
+            <div class="form-inputs">
+            <h1>Table Reservation</h1>
+            <hr>
+            <h2>Contact Information</h2>
+            <form>
+                <input type="text" placeholder="First Name" aria-label="First Name">
+                <input type="text" placeholder="Last Name" aria-label="Last Name">
+                <input type="email" placeholder="Email" aria-label="Email">
+                <input type="text" placeholder="Contact Number" aria-label="Contact Number">
+
+                <h2>Reservation Details</h2>
+                <input type="date" id="Date" placeholder="Date" aria-label="Date"> 
+                <input type="time" id="time" name="time" aria-label="Time" onchange="roundTime(this)">
+                <input type="number" placeholder="Number of Guests" aria-label="Number of Guests">
+                <textarea placeholder="Special Notes" aria-label="Special Notes"></textarea>
+            </form>
+            </div>
+            
+
+                <div class="checkbox-container">
+                    <div class="checkbox-wrapper">
+                        <input type="checkbox" id="check" required aria-label="CheckBox"/>
+                    </div>
+                    <label for="terms">I have read and accepted the
+                        <span class="terms-link" id="terms-link">terms and conditions</span>
+                    </label>
+                </div>
+
+
+                <!-- Terms and Conditions Popup -->
+                <div class="overlay" id="overlay"></div>
+                <div class="popup" id="popup">
+                    <h2>Table Reservation Terms & Conditions</h2><span onclick="closePopup()"
+                        class="close-btn">&times;</span>
+                    <hr>
+                    <div class="popup-scrollable-cont">
+                        <h3>Reservation Policy</h3>
+                        <p>Reservations are subject to availability and confirmation. A confirmed reservation ensures
+                            your
+                            table for <strong>30 minutes</strong> after the scheduled time. If you are late beyond this
+                            period, your table may be released. Walk-ins are accepted based on table availability.</p>
+                        <br>
+
+                        <h3>Cancellation & No-Show Policy</h3>
+                        <p>Cancellations must be made at least <strong>4 hours</strong> in advance. Failure to show up
+                            without prior notice may result in restrictions on future reservations.</p><br>
+
+                        <h3>Group Bookings & Special Requests</h3>
+                        <p>For reservations of <strong>10 or more guests</strong>, a deposit may be required. Special
+                            requests (seating preferences, dietary requirements, etc.) will be accommodated where
+                            possible
+                            but are not guaranteed.</p><br>
+
+                        <h3>Time Limits & Dining Duration</h3>
+                        <p>Reservations are allotted a dining time of <strong>4 hours</strong>. Extensions may be
+                            accommodated if space permits.</p><br>
+
+                        <h3>Changes to Reservation</h3>
+                        <p>Any modifications to your reservation (date, time, number of guests) should be communicated
+                            as
+                            early as possible.</p><br>
+
+                        <h3>Conduct & House Rules</h3>
+                        <p>We reserve the right to refuse service to guests who violate house rules, exhibit
+                            inappropriate
+                            behavior, or exceed the reserved seating capacity. Outside food and drinks are not permitted
+                            unless previously authorized.</p><br>
+
+                        <h3>Force Majeure</h3>
+                        <p>The restaurant reserves the right to cancel or modify reservations due to unforeseen
+                            circumstances, including but not limited to natural disasters, power outages, or
+                            emergencies.
+                        </p><br>
+                        <p>By making a reservation, you agree to these terms and conditions.</p><br><br>
+                    </div>
+                </div>
+
+                <button class="reserve-button">Reserve a Table</button>
+        </div>
+        <img class="side-image" src="../assets/images/image-on-side.png" alt="side-image">
+    </div>
+
+    <!-- Cart Popup-->
+    <div id="cart-popup" class="cart-popup">
+        <div id="cart-items">
+            <!-- Dynamic Cart Items -->
+        </div>
+        <div class="cart-footer">
+            <hr>
+            <b>
+                <p>Subtotal: <span id="subtotal">Rs. 0.00</span></p>
+            </b>
+            <p>Tax (18%): <span id="tax">Rs. 0.00</span></p>
+            <b>
+                <p>Total: <span id="total">Rs. 0.00</span></p>
+            </b>
+            <hr>
+            <button class="popup-button" onclick="viewMore()">View More</button>
+            <button class="popup-button" onclick="checkout()">Checkout</button>
+        </div>
+    </div>
+
+    <!-- Footer Section-->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="logo-footer">
+                    <img src="../assets/images/menu-logo.png" alt="logo">
+                </div>
+                <p>Where fine dining meets timeless elegance. Savor exceptional cuisine in a sophisticated setting,
+                    crafted for unforgettable moments.</p>
+                <br>
+                <hr><br>
+                <div class="opening-hours">
+                    <p><strong>Opening Hours:</strong></p>
+                    <p>Monday - Thursday : 10.00 - 22.00</p>
+                    <p>Friday - Sunday : 10:00 - 23:30</p>
+                </div>
+            </div>
+            <div class="footer-middle">
+                <a href="../index.html">Home</a>
+                <a href="../menu/menu.html">Menu</a>
+                <a href="../offers/offers.html">Offers</a>
+                <a href="../bookatable/book-a-table.html">Book a Table</a>
+                <a href="../aboutus/aboutus.html">About Us</a>
+            </div>
+            <div class="footer-right">
+                <a href="https://maps.app.goo.gl/wLtgSGCLndCJc9xa6" target="_blank">21, Alfred House Gardens, Colombo</a>
+                <a href="tel:+94112345678" target="_blank">+0112-345-678</a>
+                <a href="mailto:info.davincis@gmail.com" target="_blank">info.davincis@gmail.com</a>
+                <div class="footer-social-media-list">
+                    <a href="https://www.facebook.com" target="_blank">&#8203;<i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com" target="_blank">&#8203;<i class="fa-brands fa-instagram"></i></a>
+                    <a href="tel:+94765764774" target="_blank">&#8203;<i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.tiktok.com" target="_blank">&#8203;<i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyrights &copy; 2025 DaVinci's Restaurant</p>
+        </div>
+    </footer>
+
+
+    <script src="book-a-table.js"></script>
+    <script src="../app.js"></script>
+
+</body>
+
+</html>
