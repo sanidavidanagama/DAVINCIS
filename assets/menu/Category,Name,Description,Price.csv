@@ -1,0 +1,64 @@
+Category,Name,Description,Price
+Signature Dishes,Chef's Seafood Platter,"A lavish assortment of grilled prawns, lobster, fish, and calamari served with a tangy garlic aioli and lemon wedges.",4950
+Signature Dishes,Spiced Lamb Shank,"Slow-braised lamb shank infused with aromatic Sri Lankan spices, served on a bed of creamy mashed potatoes and vegetable medley.",3800
+Signature Dishes,Black Pepper Crab,"A Sri Lankan culinary treasure, mud crab cooked in a rich and spicy black pepper sauce.",6200
+Signature Dishes,"Wood-fired Pizza with Smoked Chicken & Pineapple","A gourmet pizza with the sweetness of pineapple complementing the smokiness of chicken on a crisp wood-fired crust.",2650
+Signature Dishes,"Coconut & Cashew Curry with Roast Chicken","A creamy and flavorful curry made with coconut milk and cashews, served with succulent roast chicken.",2900
+Appetizers,Crispy Fried Calamari,"Tender calamari rings lightly battered and fried to a golden crisp, served with a spicy mayo dip.",1250
+Appetizers,Vegetable Spring Rolls,"Crispy spring rolls filled with a medley of fresh vegetables, served with a sweet chili sauce.",850
+Appetizers,"Bruschetta with Tomato & Basil","Toasted baguette slices topped with fresh tomatoes, basil, garlic, and a drizzle of balsamic glaze.",900
+Appetizers,Spicy Chicken Wings,"Juicy chicken wings marinated in a fiery blend of spices and baked to perfection.",1100
+Appetizers,"Cheese & Spinach Dip with Tortilla Chips","A creamy dip of cheese and spinach served with crispy tortilla chips.",1400
+Beverages,Fresh Lime Juice,"Refreshing lime juice made with freshly squeezed limes.",450
+Beverages,Mango Lassi,"A creamy and sweet yogurt-based drink blended with ripe mangoes.",600
+Beverages,Iced Coffee,"Chilled coffee served with milk or cream and your choice of sweetener.",500
+Beverages,"Ceylon Tea (Hot/Iced)","Premium Ceylon tea served hot or iced.",350
+Beverages,Strawberry Smoothie,"A delightful blend of strawberries, yogurt, and a touch of honey.",700
+Beverages,Coca-Cola/Sprite,"Classic soft drinks.",300
+Beverages,Ginger Beer,"A spicy and refreshing ginger-flavored beverage.",400
+Salads,"Mixed Green Salad with Balsamic Vinaigrette","A refreshing mix of greens with tomatoes, cucumbers, carrots, and a tangy balsamic dressing.",950
+Salads,"Caesar Salad with Grilled Chicken","Crisp romaine lettuce tossed in creamy Caesar dressing with croutons, parmesan cheese, and grilled chicken.",1400
+Salads,Greek Salad,"A Mediterranean classic with tomatoes, cucumbers, onions, olives, and feta cheese.",1100
+Salads,"Avocado & Shrimp Salad","A light and flavorful salad with avocado slices, shrimp, mixed greens, and a citrus dressing.",1600
+Sandwiches,Club Sandwich,"A triple-decker sandwich with chicken, bacon, lettuce, tomato, and mayonnaise.",1200
+Sandwiches,"Grilled Chicken Panini","Grilled chicken breast, cheese, and your choice of toppings in a panini bread.",1100
+Sandwiches,"Roast Beef & Cheddar Sandwich","Thinly sliced roast beef and cheddar cheese with lettuce and tomato on a baguette.",1300
+Sandwiches,Veggie Wrap,"A soft tortilla wrap filled with hummus, falafel, lettuce, tomato, cucumber, and tahini sauce.",950
+Sandwiches,"Egg & Bacon Sandwich","Classic egg and bacon sandwich on toast.",800
+Mains,"Grilled Salmon with Lemon-Dill Sauce","Fresh salmon fillet grilled to perfection and topped with a zesty lemon-dill sauce.",3200
+Mains,"Pan-Seared Sea Bass with Roasted Vegetables","Delicate sea bass pan-seared and served with a medley of roasted seasonal vegetables.",3500
+Mains,Chicken Cacciatore,"A hearty Italian stew with chicken, tomatoes, onions, mushrooms, and herbs.",2800
+Mains,Beef Stroganoff,"Tender strips of beef cooked in a creamy mushroom sauce, served with rice or noodles.",3100
+Mains,"Vegetable Lasagna","Layers of pasta, ricotta cheese, vegetables, and tomato sauce baked to perfection.",2400
+Mains,"Pork Chops with Apple Chutney","Juicy pork chops grilled and served with a sweet and tangy apple chutney.",2900
+Mains,"Sri Lankan Chicken Curry","Aromatic Sri Lankan curry with chicken, coconut milk, and a blend of spices.",2600
+Mains,"Mutton Rogan Josh","A rich and flavorful Kashmiri curry with tender mutton in a fragrant gravy.",3400
+Mains,Spaghetti Carbonara,"Classic Italian pasta dish with eggs, bacon, parmesan cheese, and black pepper.",2200
+Mains,"Mushroom Risotto","Creamy Italian risotto with Arborio rice, mushrooms, and parmesan cheese.",2100
+Sides,French Fries,"Crispy and golden, lightly salted.",550
+Sides,"Sweet Potato Fries","A sweeter alternative, crispy and flavorful.",600
+Sides,Mashed Potatoes,"Creamy and smooth, made with butter and milk.",500
+Sides,Roasted Vegetables,"A medley of seasonal vegetables roasted to perfection.",650
+Sides,Steamed Rice,"Fluffy and light, a perfect complement to any dish.",400
+Sides,Garlic Bread,"Toasted bread with a savory garlic butter spread.",350
+Sides,Coleslaw,"Crisp and refreshing, with a creamy dressing.",450
+Sides,"Corn on the Cob","Sweet and juicy, grilled or steamed.",400
+Sides,Potato Salad,"Creamy and tangy, with potatoes, mayonnaise, and other mix-ins.",500
+Sides,Onion Rings,"Crispy and golden, a classic favorite.",600
+Sides,Side Salad,"A small portion of mixed greens with your choice of dressing.",350
+Sides,Pickles,"A variety of pickled vegetables for a tangy bite.",250
+"From the Grill","T-Bone Steak","A premium cut of beef grilled to your desired doneness.",4500
+"From the Grill","Ribeye Steak","A flavorful and marbled cut of beef grilled to perfection.",4200
+"From the Grill","Sirloin Steak","A lean and tender cut of beef grilled to your liking.",3800
+"From the Grill","Lamb Chops","Juicy lamb chops marinated and grilled.",4000
+"From the Grill","Chicken Skewers","Marinated chicken grilled on skewers with vegetables.",2500
+"From the Grill","Vegetable Skewers","A colorful assortment of grilled vegetables on skewers.",1800
+"From the Grill","Grilled Fish (Seasonal)","Freshly caught fish grilled and seasoned.",3000
+"From the Grill","Pork Ribs","Tender and smoky pork ribs slathered in barbecue sauce.",3200
+Desserts,"Chocolate Brownie with Vanilla Ice Cream","A decadent chocolate brownie served with a scoop of creamy vanilla ice cream.",1200
+Desserts,"Cheesecake with Berry Compote","Creamy cheesecake topped with a sweet berry compote.",1400
+Desserts,Tiramisu,"Classic Italian dessert with layers of espresso-soaked ladyfingers and mascarpone cream.",1300
+Desserts,Watalappan,"A traditional Sri Lankan custard dessert flavored with jaggery and spices.",900
+Desserts,Fruit Salad,"A refreshing mix of seasonal fruits.",800
+Desserts,"Ice Cream (Various Flavors)","Choose from a variety of delicious ice cream flavors.",600
+Desserts,Chocolate Mousse,"Light and airy chocolate mousse.",1100
